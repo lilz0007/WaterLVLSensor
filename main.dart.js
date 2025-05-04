@@ -54760,10 +54760,10 @@ k=o.d
 j=t.N
 i=t.z
 s=6
-return A.S(k.y7("http://193.122.81.147:8080/api/sensor/last24h?sensorId=2",A.a9N(A.az(["Accept","application/json"],j,i)),i),$async$kN)
+return A.S(k.y7("https://khedlaknafass.work.gd:8083/api/sensor/last24h?sensorId=2",A.a9N(A.az(["Accept","application/json"],j,i)),i),$async$kN)
 case 6:n=b
 s=7
-return A.S(k.y7("http://193.122.81.147:8080/api/sensor/last24h?sensorId=1",A.a9N(A.az(["Accept","application/json"],j,i)),i),$async$kN)
+return A.S(k.y7("https://khedlaknafass.work.gd:8083/api/sensor/last24h?sensorId=1",A.a9N(A.az(["Accept","application/json"],j,i)),i),$async$kN)
 case 7:m=b
 if(n.c===200&&m.c===200)o.aR(new A.a0E(o,n,m))
 else o.aR(new A.a0F(o,n,m))
